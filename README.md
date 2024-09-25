@@ -15,7 +15,7 @@ This is a Django-based Flight Booking System API that allows users to search for
 
    ```
    git clone https://github.com/rahoofachulliyil/flight_bookings.git
-   cd flight-booking-system
+   cd flight_booking
    ```
 
 2. Set up the environment:
@@ -69,7 +69,7 @@ This is a Django-based Flight Booking System API that allows users to search for
    python manage.py migrate
    ```
 
-6. Create a superuser:
+6. Create a superuser to add flight:
 
    ```
    python manage.py createsuperuser
