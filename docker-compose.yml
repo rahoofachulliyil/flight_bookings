@@ -1,0 +1,18 @@
+# docker-compose.yml
+
+version: "3.9"
+
+services:
+  db:
+    image: postgres:latest
+    volumes:
+      - om_db_persistence:/var/lib/postgresql/data/
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: flight
+      POSTGRES_USER: flight
+      POSTGRES_PASSWORD: flight
+
+volumes:
+  om_db_persistence:
