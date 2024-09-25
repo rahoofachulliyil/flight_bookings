@@ -14,7 +14,7 @@ This is a Django-based Flight Booking System API that allows users to search for
 1. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/flight-booking-system.git
+   git clone https://github.com/rahoofachulliyil/flight_bookings.git
    cd flight-booking-system
    ```
 
